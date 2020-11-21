@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F28232112569927100035356 /* ARFTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28232102569927000035356 /* ARFTableViewController.swift */; };
 		F2D36C5D256762110035D8EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D36C5C256762110035D8EE /* AppDelegate.swift */; };
 		F2D36C5F256762110035D8EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D36C5E256762110035D8EE /* SceneDelegate.swift */; };
 		F2D36C61256762110035D8EE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D36C60256762110035D8EE /* MapViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F28232102569927000035356 /* ARFTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARFTableViewController.swift; sourceTree = "<group>"; };
 		F2D36C59256762110035D8EE /* Final_Project_Will_Stanley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Final_Project_Will_Stanley.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D36C5C256762110035D8EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2D36C5E256762110035D8EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,11 +59,12 @@
 			isa = PBXGroup;
 			children = (
 				F2D36C5C256762110035D8EE /* AppDelegate.swift */,
+				F28232102569927000035356 /* ARFTableViewController.swift */,
+				F2D36C60256762110035D8EE /* MapViewController.swift */,
 				F2D36C5E256762110035D8EE /* SceneDelegate.swift */,
+				F2D36C67256762130035D8EE /* LaunchScreen.storyboard */,
 				F2D36C62256762110035D8EE /* Main.storyboard */,
 				F2D36C65256762130035D8EE /* Assets.xcassets */,
-				F2D36C60256762110035D8EE /* MapViewController.swift */,
-				F2D36C67256762130035D8EE /* LaunchScreen.storyboard */,
 				F2D36C6A256762130035D8EE /* Info.plist */,
 			);
 			path = Final_Project_Will_Stanley;
@@ -140,6 +143,7 @@
 				F2D36C61256762110035D8EE /* MapViewController.swift in Sources */,
 				F2D36C5D256762110035D8EE /* AppDelegate.swift in Sources */,
 				F2D36C5F256762110035D8EE /* SceneDelegate.swift in Sources */,
+				F28232112569927100035356 /* ARFTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
