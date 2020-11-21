@@ -14,6 +14,8 @@
 		F2D36C64256762110035D8EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D36C62256762110035D8EE /* Main.storyboard */; };
 		F2D36C66256762130035D8EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2D36C65256762130035D8EE /* Assets.xcassets */; };
 		F2D36C69256762130035D8EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D36C67256762130035D8EE /* LaunchScreen.storyboard */; };
+		F2FEE5722569BBCE00C7F49B /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FEE5712569BBCE00C7F49B /* DataController.swift */; };
+		F2FEE5762569BBF300C7F49B /* MediaDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FEE5752569BBF300C7F49B /* MediaDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		F2D36C65256762130035D8EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2D36C68256762130035D8EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2D36C6A256762130035D8EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2FEE5712569BBCE00C7F49B /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		F2FEE5752569BBF300C7F49B /* MediaDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +64,9 @@
 			children = (
 				F2D36C5C256762110035D8EE /* AppDelegate.swift */,
 				F28232102569927000035356 /* ARFTableViewController.swift */,
+				F2FEE5712569BBCE00C7F49B /* DataController.swift */,
 				F2D36C60256762110035D8EE /* MapViewController.swift */,
+				F2FEE5752569BBF300C7F49B /* MediaDataModel.swift */,
 				F2D36C5E256762110035D8EE /* SceneDelegate.swift */,
 				F2D36C67256762130035D8EE /* LaunchScreen.storyboard */,
 				F2D36C62256762110035D8EE /* Main.storyboard */,
@@ -140,7 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2FEE5722569BBCE00C7F49B /* DataController.swift in Sources */,
 				F2D36C61256762110035D8EE /* MapViewController.swift in Sources */,
+				F2FEE5762569BBF300C7F49B /* MediaDataModel.swift in Sources */,
 				F2D36C5D256762110035D8EE /* AppDelegate.swift in Sources */,
 				F2D36C5F256762110035D8EE /* SceneDelegate.swift in Sources */,
 				F28232112569927100035356 /* ARFTableViewController.swift in Sources */,
