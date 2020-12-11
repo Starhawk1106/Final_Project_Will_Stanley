@@ -25,10 +25,4 @@ class Entry: Codable {
     let imageURL: String
     let rating: String
     let hoursOpen: String
-    let coordinates: [Coords]
-}
-
-class Coords: Codable {
-    let longitude: String
-    let latitude: String
 }

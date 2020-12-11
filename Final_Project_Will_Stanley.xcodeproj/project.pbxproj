@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E5A5A302581CFD800380838 /* RestaurantRandomizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5A5A2F2581CFD800380838 /* RestaurantRandomizer.swift */; };
+		9E5A5A3D2582468300380838 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5A5A3C2582468300380838 /* DetailViewController.swift */; };
+		9E5A5A4F25831EB200380838 /* MenuListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5A5A4E25831EB200380838 /* MenuListController.swift */; };
 		F28232112569927100035356 /* ARFTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28232102569927000035356 /* ARFTableViewController.swift */; };
 		F2D36C5D256762110035D8EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D36C5C256762110035D8EE /* AppDelegate.swift */; };
 		F2D36C5F256762110035D8EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D36C5E256762110035D8EE /* SceneDelegate.swift */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E5A5A2F2581CFD800380838 /* RestaurantRandomizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantRandomizer.swift; sourceTree = "<group>"; };
+		9E5A5A3C2582468300380838 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9E5A5A4E25831EB200380838 /* MenuListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListController.swift; sourceTree = "<group>"; };
 		F28232102569927000035356 /* ARFTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARFTableViewController.swift; sourceTree = "<group>"; };
 		F2D36C59256762110035D8EE /* Final_Project_Will_Stanley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Final_Project_Will_Stanley.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D36C5C256762110035D8EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +49,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E5A5A32258238E400380838 /* JSON Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				F28232102569927000035356 /* ARFTableViewController.swift */,
+				F2FEE5712569BBCE00C7F49B /* DataController.swift */,
+				9E5A5A3C2582468300380838 /* DetailViewController.swift */,
+				F2FEE5752569BBF300C7F49B /* MediaDataModel.swift */,
+			);
+			path = "JSON Stuff";
+			sourceTree = "<group>";
+		};
+		9E5A5A3325823AEE00380838 /* Map & Random */ = {
+			isa = PBXGroup;
+			children = (
+				F2D36C60256762110035D8EE /* MapViewController.swift */,
+				9E5A5A2F2581CFD800380838 /* RestaurantRandomizer.swift */,
+			);
+			path = "Map & Random";
+			sourceTree = "<group>";
+		};
 		F2D36C50256762110035D8EE = {
 			isa = PBXGroup;
 			children = (
@@ -62,16 +88,15 @@
 		F2D36C5B256762110035D8EE /* Final_Project_Will_Stanley */ = {
 			isa = PBXGroup;
 			children = (
+				9E5A5A3325823AEE00380838 /* Map & Random */,
+				9E5A5A32258238E400380838 /* JSON Stuff */,
 				F2D36C5C256762110035D8EE /* AppDelegate.swift */,
-				F28232102569927000035356 /* ARFTableViewController.swift */,
-				F2FEE5712569BBCE00C7F49B /* DataController.swift */,
-				F2D36C60256762110035D8EE /* MapViewController.swift */,
-				F2FEE5752569BBF300C7F49B /* MediaDataModel.swift */,
 				F2D36C5E256762110035D8EE /* SceneDelegate.swift */,
 				F2D36C67256762130035D8EE /* LaunchScreen.storyboard */,
 				F2D36C62256762110035D8EE /* Main.storyboard */,
 				F2D36C65256762130035D8EE /* Assets.xcassets */,
 				F2D36C6A256762130035D8EE /* Info.plist */,
+				9E5A5A4E25831EB200380838 /* MenuListController.swift */,
 			);
 			path = Final_Project_Will_Stanley;
 			sourceTree = "<group>";
@@ -150,7 +175,10 @@
 				F2D36C61256762110035D8EE /* MapViewController.swift in Sources */,
 				F2FEE5762569BBF300C7F49B /* MediaDataModel.swift in Sources */,
 				F2D36C5D256762110035D8EE /* AppDelegate.swift in Sources */,
+				9E5A5A302581CFD800380838 /* RestaurantRandomizer.swift in Sources */,
 				F2D36C5F256762110035D8EE /* SceneDelegate.swift in Sources */,
+				9E5A5A3D2582468300380838 /* DetailViewController.swift in Sources */,
+				9E5A5A4F25831EB200380838 /* MenuListController.swift in Sources */,
 				F28232112569927100035356 /* ARFTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
